@@ -1,0 +1,4 @@
+include:
+  - project: 'yunwei/cicd/xuexipingtai/entrypoint'
+    ref: main
+    file: '/main.yml'

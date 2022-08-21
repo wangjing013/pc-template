@@ -1,0 +1,18 @@
+.scrollbar {
+  &::-webkit-scrollbar {
+    width: 4px;
+  }
+  &::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #666;
+  }
+  &::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #333;
+  }
+}
+
+#__nuxt,
+#__layout {
+  height: 100%;
+}
